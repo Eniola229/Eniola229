@@ -51,19 +51,6 @@ I create systems like fintech wallets, VTU platforms, dashboards, voting systems
 
 ---
 
-# 📌 **Featured Projects**
-
-### 🔹 **A-Pay – Fintech Wallet & VTU Platform**  
-WhatsApp-powered automation, wallet funding, Paystack verification, admin controls.
-
-### 🔹 **Automated Courseware System**  
-Laravel + Breeze academic platform: notes, quizzes, scores, student portal.
-
-### 🔹 **Voting System with Receipt Verification**  
-Livewire-powered receipts, dynamic previews, admin payment approval workflow.
-
----
-
 # 📊 **GitHub Stats**
 
 <p align="center">
