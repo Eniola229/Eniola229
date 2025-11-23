@@ -9,7 +9,7 @@
 # 👋 **About Me**
 I’m a **Full-Stack Developer** building modern web & mobile applications with clean UI, scalable backend logic, and real-world impact.
 
-I create systems like fintech wallets, VTU platforms, dashboards, voting systems, and automation tools using Laravel, React, React Native, Firebase, Appwrite, and more.
+I create systems like fintech wallets, VTU platforms, dashboards, voting systems, WhatsApp automation tools, and backend APIs — using Laravel, React, React Native, Firebase, Appwrite, and more.
 
 ---
 
@@ -42,60 +42,58 @@ I create systems like fintech wallets, VTU platforms, dashboards, voting systems
 
 # ⚡ **What I Build**
 
-### ✔ Fintech Systems (Wallets, Paystack Integrations, Webhooks)  
+### ✔ Fintech Wallet Systems (Paystack, Webhooks, Automation)  
 ### ✔ React Dashboards & Web Apps  
-### ✔ VTU & Airtime/Data Systems  
-### ✔ Voting/Receipt Verification Platforms  
+### ✔ VTU, Airtime/Data Platforms  
+### ✔ Voting Systems with Receipt Verification  
 ### ✔ Mobile Apps (React Native + Firebase/Appwrite)  
-### ✔ Backend APIs, Auth Systems, Admin Panels  
+### ✔ Admin Panels, APIs & Backend Systems  
 
 ---
 
 # 📌 **Featured Projects**
-*(Replace the links with yours later)*
 
 ### 🔹 **A-Pay – Fintech Wallet & VTU Platform**  
-WhatsApp-based automation, wallet funding, Paystack webhook processing, admin dashboard.
+WhatsApp-powered automation, wallet funding, Paystack verification, admin controls.
 
 ### 🔹 **Automated Courseware System**  
-Laravel + Breeze academic system for students to register, take quizzes, view notes & track progress.
+Laravel + Breeze academic platform: notes, quizzes, scores, student portal.
 
 ### 🔹 **Voting System with Receipt Verification**  
-Livewire-powered, frontend instant preview, admin confirmation dashboard.
+Livewire-powered receipts, dynamic previews, admin payment approval workflow.
 
 ---
 
 # 📊 **GitHub Stats**
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=react" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=react" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Eniola229&show_icons=true&theme=react" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eniola229&layout=compact&theme=react" />
 </p>
 
 ---
 
 # 🔥 **GitHub Streaks**
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR-USERNAME&theme=react" />
+  <img src="https://streak-stats.demolab.com?user=Eniola229&theme=react" />
 </p>
 
 ---
 
 # 🏆 **GitHub Trophy Board**
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=onedark&margin-w=10&row=1&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Eniola229&theme=onedark&margin-w=10&row=1&column=6" />
 </p>
 
 ---
 
 # 🤝 **Connect With Me**
-- 📧 Email: *add your email here*  
-- 🔗 LinkedIn: *add your link*  
-- 🌐 Portfolio: *add your website (I can make one for you)*  
+- 📧 Email: **joshuaadeyemi445@gmail.com**  
+- 🌐 Portfolio: **https://www.africicl.com.ng**  
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=800&color=22D3EE&width=800&center=true&lines=Thanks+for+visiting+my+profile!;Let's+build+something+amazing+together+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=800&color=22D3EE&width=800&center=true&lines=Thanks+for+visiting+my+profile!;Let's+build+amazing+things+together+🚀" />
 </p>
 
