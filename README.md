@@ -71,19 +71,6 @@ Livewire-powered receipts, dynamic previews, admin payment approval workflow.
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eniola229&layout=compact&theme=react" />
 </p>
 
----
-
-# 🔥 **GitHub Streaks**
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Eniola229&theme=react" />
-</p>
-
----
-
-# 🏆 **GitHub Trophy Board**
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Eniola229&theme=onedark&margin-w=10&row=1&column=6" />
-</p>
 
 ---
 
