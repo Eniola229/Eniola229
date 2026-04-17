@@ -63,7 +63,7 @@ Open to freelance projects, collaborations, and full-time opportunities. If you 
 
 | | |
 |---|---|
-| **Live Projects** | 5+ |
+| **Live Projects** | 10+ |
 | **Years Building** | 3+ |
 | **Primary Backend** | Laravel |
 | **Primary Frontend** | React |
