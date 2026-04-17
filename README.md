@@ -8,7 +8,7 @@
 
 ---
 
-## 🔥 Live Projects
+## 🔥 Recent Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
