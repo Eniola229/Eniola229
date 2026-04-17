@@ -17,7 +17,9 @@
 }
 html{scroll-behavior:smooth}
 body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--t);overflow-x:hidden}
-::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--gd);border-radius:2px}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--gd);border-radius:2px}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd);display:flex;align-items:center;justify-content:space-between;padding:0 5%;height:68px}
@@ -27,9 +29,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .nav-links a{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--tm);text-decoration:none;transition:color .2s}
 .nav-links a:hover{color:var(--g)}
 .nav-cta{display:flex;gap:10px;align-items:center}
-.btn-o{padding:8px 20px;border:1px solid var(--bd);background:transparent;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;color:var(--tm);text-decoration:none;transition:all .2s;display:flex;align-items:center;gap:7px}
+.btn-o{padding:8px 20px;border:1px solid var(--bd);background:transparent;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;color:var(--tm);text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:7px}
 .btn-o:hover{border-color:var(--g);color:var(--g)}
-.btn-s{padding:8px 20px;background:var(--g);border:none;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;color:#000;text-decoration:none;transition:background .2s}
+.btn-s{padding:8px 20px;background:var(--g);border:none;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;color:#000;text-decoration:none;transition:background .2s;display:inline-flex;align-items:center;gap:7px}
 .btn-s:hover{background:#4ade80}
 
 /* LABELS */
@@ -38,7 +40,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 
 /* LIVE BADGE */
 .livebadge{display:inline-flex;align-items:center;gap:7px;background:var(--gg);border:1px solid var(--bdg);color:var(--g);padding:5px 14px;border-radius:20px;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:26px}
-.ldot{width:7px;height:7px;background:var(--g);border-radius:50%;animation:pulse 1.5s infinite}
+.ldot{width:7px;height:7px;background:var(--g);border-radius:50%;flex-shrink:0;animation:pulse 1.5s infinite}
 @keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(34,197,94,.5)}50%{opacity:.7;box-shadow:0 0 0 5px rgba(34,197,94,0)}}
 
 /* HERO */
@@ -71,6 +73,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 
 .ps-top{display:flex;align-items:center;gap:14px;margin-bottom:14px}
 .ps-ico{width:50px;height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;color:#fff}
+.ps-ico img{width:24px;height:24px;object-fit:contain;filter:brightness(0) invert(1)}
 .ps-name{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:21px;color:var(--t);text-transform:uppercase}
 .ps-url{font-size:12px;color:var(--g);margin-top:3px;display:flex;align-items:center;gap:5px}
 .ps-desc{font-size:14px;color:var(--tm);line-height:1.72;margin-bottom:14px}
@@ -84,7 +87,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .act-hd{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--tm);margin-bottom:11px;display:flex;align-items:center;gap:8px}
 .act-row{font-size:13px;color:var(--tm);padding:7px 0;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:10px}
 .act-row:last-child{border:none;padding-bottom:0}
-.act-row i{color:var(--g);width:14px;text-align:center;font-size:13px}
+.act-icon{width:14px;height:14px;object-fit:contain;flex-shrink:0}
+.act-icon-fa{color:var(--g);width:14px;text-align:center;font-size:13px}
 .act-row strong{color:var(--t);font-weight:600}
 
 /* FEATURES */
@@ -96,6 +100,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .fcard:hover{background:var(--card2)}
 .fnum{font-family:'Barlow Condensed',sans-serif;font-size:11px;color:var(--td);letter-spacing:1px;margin-bottom:18px}
 .fico{width:44px;height:44px;border-radius:10px;background:var(--gg);border:1px solid var(--bdg);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:var(--g);font-size:19px}
+.fico img{width:20px;height:20px;object-fit:contain}
 .ftitle{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:24px;color:var(--t);margin-bottom:10px;text-transform:uppercase}
 .fdesc{font-size:15px;color:var(--tm);line-height:1.75}
 
@@ -111,8 +116,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .trow:last-child .tcell{border-bottom:none}
 .tcell:last-child{border-right:none}
 .tcell:hover{background:var(--gg)}
-.tcell i{font-size:26px;color:var(--tm);display:block;margin-bottom:10px;transition:color .2s}
-.tcell:hover i{color:var(--g)}
+.tcell-icon{font-size:26px;color:var(--tm);display:block;margin-bottom:10px;transition:color .2s;height:32px;display:flex;align-items:center;justify-content:center}
+.tcell-icon img{width:28px;height:28px;object-fit:contain;filter:grayscale(1) brightness(.7);transition:filter .2s}
+.tcell:hover .tcell-icon{color:var(--g)}
+.tcell:hover .tcell-icon img{filter:grayscale(0) brightness(1)}
 .tname{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--tm);transition:color .2s}
 .tcell:hover .tname{color:var(--g)}
 
@@ -127,6 +134,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .pnum{font-family:'Barlow Condensed',sans-serif;font-size:11px;color:var(--td);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px}
 .pico-row{display:flex;align-items:center;gap:13px;margin-bottom:12px}
 .pico{width:46px;height:46px;border-radius:10px;background:var(--gg);border:1px solid var(--bdg);display:flex;align-items:center;justify-content:center;color:var(--g);font-size:19px;flex-shrink:0}
+.pico img{width:22px;height:22px;object-fit:contain}
 .pname{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:22px;color:var(--t);text-transform:uppercase}
 .purl{font-size:12px;color:var(--g);display:flex;align-items:center;gap:5px;margin-top:2px}
 .pdesc{font-size:14px;color:var(--tm);line-height:1.75;margin-bottom:16px}
@@ -137,7 +145,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .pcard.feat{grid-column:1/-1}
 .pcard.feat .pdesc{max-width:560px}
 .pcard.feat .pico{background:rgba(34,197,94,.2);border-color:var(--g)}
-.pcard.feat .pico i{color:var(--g)}
 
 /* CONNECT */
 #connect{padding:100px 5%;background:var(--bg)}
@@ -149,6 +156,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,20,0.92
 .clink{display:flex;align-items:center;gap:15px;padding:15px 18px;border:1px solid var(--bd);border-radius:10px;text-decoration:none;color:var(--t);background:var(--card);transition:border-color .2s,background .2s}
 .clink:hover{border-color:var(--bdg);background:var(--card2)}
 .clink-ico{width:40px;height:40px;border-radius:9px;background:var(--gg);border:1px solid var(--bdg);display:flex;align-items:center;justify-content:center;color:var(--g);font-size:16px;flex-shrink:0}
+.clink-ico img{width:18px;height:18px;object-fit:contain}
 .clink-lbl{font-size:11px;color:var(--td);text-transform:uppercase;letter-spacing:1.5px}
 .clink-val{font-weight:600;font-size:14px;color:var(--t);margin-top:2px}
 .gh-card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:34px}
@@ -186,6 +194,7 @@ footer p{font-size:13px;color:var(--td)}
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">JOSHUA ADEYEMI <span class="afric">(AFRIC)</span></a>
   <ul class="nav-links">
@@ -195,7 +204,9 @@ footer p{font-size:13px;color:var(--td)}
     <li><a href="#connect">Contact</a></li>
   </ul>
   <div class="nav-cta">
-    <a href="https://github.com/Eniola229" target="_blank" class="btn-o"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://github.com/Eniola229" target="_blank" class="btn-o">
+      <img src="https://cdn.simpleicons.org/github/7a95b2" width="14" height="14" alt="GitHub"> GitHub
+    </a>
     <a href="mailto:joshuaadeyemi445@gmail.com" class="btn-s">Hire Me</a>
   </div>
 </nav>
@@ -211,8 +222,8 @@ footer p{font-size:13px;color:var(--td)}
       <span class="n3">(AFRIC)</span>
     </div>
     <p class="hero-sub">
-      <strong>Laravel · React · React Native · Firebase · Tailwind.</strong><br>
-      I build fintech wallets, VTU platforms, dashboards, voting systems &amp; real APIs — clean UI, scalable backend, real impact.
+      <strong>PHP · Laravel · React · React Native · Tailwind.</strong><br>
+      I build fintech wallets, VTU platforms, dashboards, e commerce, CRM, voting systems &amp; real APIs — clean UI, scalable backend, real impact.
     </p>
     <div class="hero-btns">
       <a href="#projects" class="btn-s">View Projects</a>
@@ -227,64 +238,99 @@ footer p{font-size:13px;color:var(--td)}
         <div class="cdots" id="cdots"></div>
       </div>
 
+      <!-- AfricTV -->
       <div class="pslide on" data-i="0">
         <div class="ps-top">
-          <div class="ps-ico" style="background:linear-gradient(135deg,#16a34a,#166534)"><i class="fa-solid fa-tv"></i></div>
+          <div class="ps-ico" style="background:linear-gradient(135deg,#16a34a,#166534)">
+            <img src="https://cdn.simpleicons.org/youtube/ffffff" width="24" height="24" alt="TV">
+          </div>
           <div>
             <div class="ps-name">AfricTV</div>
-            <div class="ps-url"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> africtv.fun</div>
+            <div class="ps-url">
+              <img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> africtv.fun
+            </div>
           </div>
         </div>
         <p class="ps-desc">African-focused streaming platform delivering video content with modern interface and robust backend infrastructure.</p>
-        <div class="ps-tags"><span class="ps-tag">React</span><span class="ps-tag">Laravel</span><span class="ps-tag">MySQL</span><span class="ps-tag">Streaming</span></div>
+        <div class="ps-tags">
+          <span class="ps-tag">React</span><span class="ps-tag">Laravel</span><span class="ps-tag">MySQL</span><span class="ps-tag">Streaming</span>
+        </div>
       </div>
 
+      <!-- OrdererWeb -->
       <div class="pslide" data-i="1">
         <div class="ps-top">
-          <div class="ps-ico" style="background:linear-gradient(135deg,#0ea5e9,#0369a1)"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="ps-ico" style="background:linear-gradient(135deg,#0ea5e9,#0369a1)">
+            <img src="https://cdn.simpleicons.org/shopify/ffffff" width="24" height="24" alt="Shop">
+          </div>
           <div>
             <div class="ps-name">OrdererWeb</div>
-            <div class="ps-url"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> ordererweb.shop</div>
+            <div class="ps-url">
+              <img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> ordererweb.shop
+            </div>
           </div>
         </div>
         <p class="ps-desc">Full-featured e-commerce platform with order management, product listings, and seamless payment integration.</p>
-        <div class="ps-tags"><span class="ps-tag">Laravel</span><span class="ps-tag">Tailwind</span><span class="ps-tag">Paystack</span><span class="ps-tag">MySQL</span></div>
+        <div class="ps-tags">
+          <span class="ps-tag">Laravel</span><span class="ps-tag">Tailwind</span><span class="ps-tag">Paystack</span><span class="ps-tag">MySQL</span>
+        </div>
       </div>
 
+      <!-- LSIV -->
       <div class="pslide" data-i="2">
         <div class="ps-top">
-          <div class="ps-ico" style="background:linear-gradient(135deg,#7c3aed,#5b21b6)"><i class="fa-solid fa-building-columns"></i></div>
+          <div class="ps-ico" style="background:linear-gradient(135deg,#7c3aed,#5b21b6)">
+            <img src="https://cdn.simpleicons.org/academia/ffffff" width="24" height="24" alt="Org">
+          </div>
           <div>
             <div class="ps-name">LSIV</div>
-            <div class="ps-url"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> lsiv.org</div>
+            <div class="ps-url">
+              <img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> lsiv.org
+            </div>
           </div>
         </div>
         <p class="ps-desc">Professional organizational website with clean architecture, content management, and polished modern design standards.</p>
-        <div class="ps-tags"><span class="ps-tag">React</span><span class="ps-tag">PHP</span><span class="ps-tag">MySQL</span><span class="ps-tag">CMS</span></div>
+        <div class="ps-tags">
+          <span class="ps-tag">React</span><span class="ps-tag">PHP</span><span class="ps-tag">MySQL</span><span class="ps-tag">CMS</span>
+        </div>
       </div>
 
+      <!-- TradeVista Hub -->
       <div class="pslide" data-i="3">
         <div class="ps-top">
-          <div class="ps-ico" style="background:linear-gradient(135deg,#f59e0b,#b45309)"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="ps-ico" style="background:linear-gradient(135deg,#f59e0b,#b45309)">
+            <img src="https://cdn.simpleicons.org/tradingview/ffffff" width="24" height="24" alt="Trade">
+          </div>
           <div>
             <div class="ps-name">TradeVista Hub</div>
-            <div class="ps-url"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> tradevistahub.shop</div>
+            <div class="ps-url">
+              <img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> tradevistahub.shop
+            </div>
           </div>
         </div>
         <p class="ps-desc">Fintech trading hub with real-time data, portfolio tracking, and secure transaction workflows for modern traders.</p>
-        <div class="ps-tags"><span class="ps-tag">React</span><span class="ps-tag">Laravel</span><span class="ps-tag">Firebase</span><span class="ps-tag">Fintech</span></div>
+        <div class="ps-tags">
+          <span class="ps-tag">React</span><span class="ps-tag">Laravel</span><span class="ps-tag">Firebase</span><span class="ps-tag">Fintech</span>
+        </div>
       </div>
 
+      <!-- A-Pay -->
       <div class="pslide" data-i="4">
         <div class="ps-top">
-          <div class="ps-ico" style="background:linear-gradient(135deg,#22c55e,#15803d)"><i class="fa-solid fa-wallet"></i></div>
+          <div class="ps-ico" style="background:linear-gradient(135deg,#22c55e,#15803d)">
+            <img src="https://cdn.simpleicons.org/paystack/ffffff" width="24" height="24" alt="Wallet">
+          </div>
           <div>
             <div class="ps-name">A-Pay Wallet</div>
-            <div class="ps-url"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> africicl.com.ng/a-pay</div>
+            <div class="ps-url">
+              <img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> africicl.com.ng/a-pay
+            </div>
           </div>
         </div>
         <p class="ps-desc">Full fintech wallet — Paystack, webhook automation, transfers, receipts &amp; admin panel. Built for scale.</p>
-        <div class="ps-tags"><span class="ps-tag">Laravel</span><span class="ps-tag">Paystack</span><span class="ps-tag">Webhooks</span><span class="ps-tag">Wallet</span></div>
+        <div class="ps-tags">
+          <span class="ps-tag">Laravel</span><span class="ps-tag">Paystack</span><span class="ps-tag">Webhooks</span><span class="ps-tag">Wallet</span>
+        </div>
       </div>
 
       <div class="psbar-wrap"><div class="psbar" id="psbar"></div></div>
@@ -292,9 +338,15 @@ footer p{font-size:13px;color:var(--td)}
 
     <div class="act-box">
       <div class="act-hd"><span class="ldot"></span> Recent Activity</div>
-      <div class="act-row"><i class="fa-solid fa-bolt"></i> Launched <strong>A-Pay wallet</strong> with Paystack webhooks</div>
-      <div class="act-row"><i class="fa-brands fa-react"></i> Shipped <strong>React Native app</strong> with Firebase auth</div>
-      <div class="act-row"><i class="fa-solid fa-tower-broadcast"></i> Deployed <strong>VTU platform</strong> with airtime/data API</div>
+      <div class="act-row">
+        <img class="act-icon" src="https://cdn.simpleicons.org/paystack/22c55e" alt=""> Launched <strong>A-Pay wallet</strong> with Paystack webhooks
+      </div>
+      <div class="act-row">
+        <img class="act-icon" src="https://cdn.simpleicons.org/react/22c55e" alt=""> Shipped <strong>React Native app</strong> with Firebase auth
+      </div>
+      <div class="act-row">
+        <img class="act-icon" src="https://cdn.simpleicons.org/laravel/22c55e" alt=""> Deployed <strong>VTU platform</strong> with airtime/data API
+      </div>
     </div>
   </div>
 </section>
@@ -308,25 +360,33 @@ footer p{font-size:13px;color:var(--td)}
   <div class="fgrid">
     <div class="fcard rv">
       <div class="fnum">01</div>
-      <div class="fico"><i class="fa-solid fa-credit-card"></i></div>
+      <div class="fico">
+        <img src="https://cdn.simpleicons.org/paystack/22c55e" width="20" height="20" alt="">
+      </div>
       <div class="ftitle">Fintech &amp; Wallets</div>
       <p class="fdesc">Full wallet systems with Paystack integration, webhook automation, transaction history, and instant delivery pipelines built for scale and security.</p>
     </div>
     <div class="fcard rv">
       <div class="fnum">02</div>
-      <div class="fico"><i class="fa-solid fa-gauge-high"></i></div>
+      <div class="fico">
+        <img src="https://cdn.simpleicons.org/react/22c55e" width="20" height="20" alt="">
+      </div>
       <div class="ftitle">Dashboards &amp; Web Apps</div>
       <p class="fdesc">React-powered dashboards with clean UI, real-time data feeds, admin panels, and backend APIs that handle serious traffic without breaking.</p>
     </div>
     <div class="fcard rv">
       <div class="fnum">03</div>
-      <div class="fico"><i class="fa-solid fa-mobile-screen"></i></div>
+      <div class="fico">
+        <img src="https://cdn.simpleicons.org/android/22c55e" width="20" height="20" alt="">
+      </div>
       <div class="ftitle">Mobile Apps</div>
       <p class="fdesc">React Native mobile applications with Firebase or Appwrite backends, auth flows, push notifications, and production-ready UI that ships.</p>
     </div>
     <div class="fcard rv">
       <div class="fnum">04</div>
-      <div class="fico"><i class="fa-solid fa-layer-group"></i></div>
+      <div class="fico">
+        <img src="https://cdn.simpleicons.org/layerstack/22c55e" width="20" height="20" alt="">
+      </div>
       <div class="ftitle">Specialized Systems</div>
       <p class="fdesc">VTU platforms, voting systems with receipt verification, WhatsApp automation bots, and full e-commerce solutions built end-to-end.</p>
     </div>
@@ -345,22 +405,58 @@ footer p{font-size:13px;color:var(--td)}
   <div class="sdivider"></div>
   <div class="tgrid rv">
     <div class="trow">
-      <div class="tcell"><i class="fa-brands fa-react"></i><div class="tname">React</div></div>
-      <div class="tcell"><i class="fa-brands fa-react" style="color:#38bdf8"></i><div class="tname">React Native</div></div>
-      <div class="tcell"><i class="fa-brands fa-css3-alt"></i><div class="tname">Tailwind CSS</div></div>
-      <div class="tcell"><i class="fa-solid fa-swatchbook"></i><div class="tname">Material UI</div></div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/react/61dafb" alt="React"></div>
+        <div class="tname">React</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/react/38bdf8" alt="React Native"></div>
+        <div class="tname">React Native</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/tailwindcss/06b6d4" alt="Tailwind"></div>
+        <div class="tname">Tailwind CSS</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/mui/0081cb" alt="MUI"></div>
+        <div class="tname">Material UI</div>
+      </div>
     </div>
     <div class="trow">
-      <div class="tcell"><i class="fa-brands fa-laravel"></i><div class="tname">Laravel</div></div>
-      <div class="tcell"><i class="fa-brands fa-php"></i><div class="tname">PHP</div></div>
-      <div class="tcell"><i class="fa-brands fa-python"></i><div class="tname">Python</div></div>
-      <div class="tcell"><i class="fa-solid fa-fire"></i><div class="tname">Firebase</div></div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/laravel/ff2d20" alt="Laravel"></div>
+        <div class="tname">Laravel</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/php/777bb4" alt="PHP"></div>
+        <div class="tname">PHP</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/python/3776ab" alt="Python"></div>
+        <div class="tname">Python</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/firebase/ffca28" alt="Firebase"></div>
+        <div class="tname">Firebase</div>
+      </div>
     </div>
     <div class="trow">
-      <div class="tcell"><i class="fa-solid fa-database"></i><div class="tname">MySQL</div></div>
-      <div class="tcell"><i class="fa-solid fa-leaf"></i><div class="tname">MongoDB</div></div>
-      <div class="tcell"><i class="fa-solid fa-server"></i><div class="tname">Appwrite</div></div>
-      <div class="tcell"><i class="fa-brands fa-docker"></i><div class="tname">Docker</div></div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/mysql/4479a1" alt="MySQL"></div>
+        <div class="tname">MySQL</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/mongodb/47a248" alt="MongoDB"></div>
+        <div class="tname">MongoDB</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/appwrite/f02e65" alt="Appwrite"></div>
+        <div class="tname">Appwrite</div>
+      </div>
+      <div class="tcell">
+        <div class="tcell-icon"><img src="https://cdn.simpleicons.org/docker/2496ed" alt="Docker"></div>
+        <div class="tname">Docker</div>
+      </div>
     </div>
   </div>
 </section>
@@ -376,56 +472,71 @@ footer p{font-size:13px;color:var(--td)}
     <a class="pcard rv" href="https://africtv.fun" target="_blank">
       <div class="pnum">01 — STREAMING PLATFORM</div>
       <div class="pico-row">
-        <div class="pico"><i class="fa-solid fa-tv"></i></div>
-        <div><div class="pname">AfricTV</div><div class="purl"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> africtv.fun</div></div>
+        <div class="pico"><img src="https://cdn.simpleicons.org/youtube/22c55e" width="22" height="22" alt=""></div>
+        <div>
+          <div class="pname">AfricTV</div>
+          <div class="purl"><img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> africtv.fun</div>
+        </div>
       </div>
       <p class="pdesc">African-focused streaming platform delivering rich video content with a modern, responsive interface and a robust Laravel backend built for scale.</p>
       <div class="ptags"><span class="ptag">React</span><span class="ptag">Laravel</span><span class="ptag">MySQL</span><span class="ptag">Streaming</span></div>
-      <span class="parrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      <span class="parrow"><img src="https://cdn.simpleicons.org/googlechrome/3f5a74" width="13" height="13" alt="→"></span>
     </a>
 
     <a class="pcard rv" href="https://ordererweb.shop" target="_blank">
       <div class="pnum">02 — E-COMMERCE</div>
       <div class="pico-row">
-        <div class="pico"><i class="fa-solid fa-cart-shopping"></i></div>
-        <div><div class="pname">OrdererWeb</div><div class="purl"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> ordererweb.shop</div></div>
+        <div class="pico"><img src="https://cdn.simpleicons.org/shopify/22c55e" width="22" height="22" alt=""></div>
+        <div>
+          <div class="pname">OrdererWeb</div>
+          <div class="purl"><img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> ordererweb.shop</div>
+        </div>
       </div>
       <p class="pdesc">Full-featured e-commerce platform with product management, order tracking, and seamless Paystack payment integration for Nigerian businesses.</p>
       <div class="ptags"><span class="ptag">Laravel</span><span class="ptag">Tailwind</span><span class="ptag">Paystack</span><span class="ptag">MySQL</span></div>
-      <span class="parrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      <span class="parrow"><img src="https://cdn.simpleicons.org/googlechrome/3f5a74" width="13" height="13" alt="→"></span>
     </a>
 
     <a class="pcard rv" href="https://lsiv.org" target="_blank">
       <div class="pnum">03 — ORGANIZATION</div>
       <div class="pico-row">
-        <div class="pico"><i class="fa-solid fa-building-columns"></i></div>
-        <div><div class="pname">LSIV</div><div class="purl"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> lsiv.org</div></div>
+        <div class="pico"><img src="https://cdn.simpleicons.org/academia/22c55e" width="22" height="22" alt=""></div>
+        <div>
+          <div class="pname">LSIV</div>
+          <div class="purl"><img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> lsiv.org</div>
+        </div>
       </div>
       <p class="pdesc">Professional organizational website with clean architecture, dynamic content management, and a polished modern design that communicates authority.</p>
       <div class="ptags"><span class="ptag">React</span><span class="ptag">PHP</span><span class="ptag">MySQL</span><span class="ptag">CMS</span></div>
-      <span class="parrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      <span class="parrow"><img src="https://cdn.simpleicons.org/googlechrome/3f5a74" width="13" height="13" alt="→"></span>
     </a>
 
     <a class="pcard rv" href="https://tradevistahub.shop" target="_blank">
       <div class="pnum">04 — FINTECH</div>
       <div class="pico-row">
-        <div class="pico"><i class="fa-solid fa-chart-line"></i></div>
-        <div><div class="pname">TradeVista Hub</div><div class="purl"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> tradevistahub.shop</div></div>
+        <div class="pico"><img src="https://cdn.simpleicons.org/tradingview/22c55e" width="22" height="22" alt=""></div>
+        <div>
+          <div class="pname">TradeVista Hub</div>
+          <div class="purl"><img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> tradevistahub.shop</div>
+        </div>
       </div>
       <p class="pdesc">Fintech trading hub with real-time market data, portfolio tracking, and secure transaction workflows designed for serious modern traders.</p>
       <div class="ptags"><span class="ptag">React</span><span class="ptag">Laravel</span><span class="ptag">Firebase</span><span class="ptag">API</span></div>
-      <span class="parrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      <span class="parrow"><img src="https://cdn.simpleicons.org/googlechrome/3f5a74" width="13" height="13" alt="→"></span>
     </a>
 
     <a class="pcard feat rv" href="https://africicl.com.ng/a-pay" target="_blank">
       <div class="pnum">05 — PAYMENT SYSTEM · FEATURED PROJECT</div>
       <div class="pico-row">
-        <div class="pico"><i class="fa-solid fa-wallet"></i></div>
-        <div><div class="pname">A-Pay Wallet System</div><div class="purl"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:9px"></i> africicl.com.ng/a-pay</div></div>
+        <div class="pico"><img src="https://cdn.simpleicons.org/paystack/22c55e" width="22" height="22" alt=""></div>
+        <div>
+          <div class="pname">A-Pay Wallet System</div>
+          <div class="purl"><img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="10" height="10" alt=""> africicl.com.ng/a-pay</div>
+        </div>
       </div>
       <p class="pdesc">A production-grade fintech wallet built on Paystack — with webhook automation, wallet funding, peer-to-peer transfers, transaction receipts, and a full admin dashboard. Designed for high transaction volume and built to scale without compromise.</p>
       <div class="ptags"><span class="ptag">Laravel</span><span class="ptag">React</span><span class="ptag">Paystack</span><span class="ptag">Webhooks</span><span class="ptag">MySQL</span><span class="ptag">Admin Panel</span><span class="ptag">Fintech</span></div>
-      <span class="parrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      <span class="parrow"><img src="https://cdn.simpleicons.org/googlechrome/3f5a74" width="13" height="13" alt="→"></span>
     </a>
   </div>
 </section>
@@ -439,15 +550,15 @@ footer p{font-size:13px;color:var(--td)}
       <p>Open to freelance projects, collaborations, and full-time opportunities. If you have a real problem that needs a serious full-stack developer — I'm your guy.</p>
       <div class="clinks">
         <a href="mailto:joshuaadeyemi445@gmail.com" class="clink">
-          <div class="clink-ico"><i class="fa-solid fa-envelope"></i></div>
+          <div class="clink-ico"><img src="https://cdn.simpleicons.org/gmail/22c55e" width="18" height="18" alt=""></div>
           <div><div class="clink-lbl">Email</div><div class="clink-val">joshuaadeyemi445@gmail.com</div></div>
         </a>
         <a href="https://www.africicl.com.ng" target="_blank" class="clink">
-          <div class="clink-ico"><i class="fa-solid fa-globe"></i></div>
+          <div class="clink-ico"><img src="https://cdn.simpleicons.org/googlechrome/22c55e" width="18" height="18" alt=""></div>
           <div><div class="clink-lbl">Portfolio</div><div class="clink-val">africicl.com.ng</div></div>
         </a>
         <a href="https://github.com/Eniola229" target="_blank" class="clink">
-          <div class="clink-ico"><i class="fa-brands fa-github"></i></div>
+          <div class="clink-ico"><img src="https://cdn.simpleicons.org/github/22c55e" width="18" height="18" alt=""></div>
           <div><div class="clink-lbl">GitHub</div><div class="clink-val">github.com/Eniola229</div></div>
         </a>
       </div>
@@ -476,52 +587,52 @@ footer p{font-size:13px;color:var(--td)}
 </footer>
 
 <script>
-// --- ANIMATED PROJECT CYCLE ---
+// ANIMATED PROJECT CYCLE
 const slides = document.querySelectorAll('.pslide');
 const bar = document.getElementById('psbar');
 const dotsWrap = document.getElementById('cdots');
 let cur = 0, startT = null, rafId;
 const DUR = 4200;
 
-slides.forEach((_,i) => {
-  const d = document.createElement('div');
-  d.className = 'cdot' + (i===0?' on':'');
-  d.addEventListener('click', () => goTo(i));
+slides.forEach(function(_, i) {
+  var d = document.createElement('div');
+  d.className = 'cdot' + (i === 0 ? ' on' : '');
+  d.addEventListener('click', function() { goTo(i); });
   dotsWrap.appendChild(d);
 });
 
-function dots(){ return document.querySelectorAll('.cdot'); }
+function getDots() { return document.querySelectorAll('.cdot'); }
 
-function goTo(idx){
+function goTo(idx) {
   slides[cur].classList.remove('on');
-  dots()[cur].classList.remove('on');
+  getDots()[cur].classList.remove('on');
   cur = idx;
   slides[cur].classList.add('on');
-  dots()[cur].classList.add('on');
+  getDots()[cur].classList.add('on');
   startT = null;
   cancelAnimationFrame(rafId);
   rafId = requestAnimationFrame(tick);
 }
 
-function tick(ts){
-  if(!startT) startT = ts;
-  const p = Math.min(((ts - startT) / DUR) * 100, 100);
+function tick(ts) {
+  if (!startT) startT = ts;
+  var p = Math.min(((ts - startT) / DUR) * 100, 100);
   bar.style.width = p + '%';
-  if(p >= 100){ goTo((cur+1) % slides.length); return; }
+  if (p >= 100) { goTo((cur + 1) % slides.length); return; }
   rafId = requestAnimationFrame(tick);
 }
 rafId = requestAnimationFrame(tick);
 
-// --- SCROLL REVEAL ---
-const rvEls = document.querySelectorAll('.rv');
-const obs = new IntersectionObserver((entries) => {
-  entries.forEach((e, i) => {
-    if(e.isIntersecting){
-      setTimeout(() => e.target.classList.add('vis'), i * 70);
+// SCROLL REVEAL
+var rvEls = document.querySelectorAll('.rv');
+var obs = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e, i) {
+    if (e.isIntersecting) {
+      setTimeout(function() { e.target.classList.add('vis'); }, i * 70);
     }
   });
 }, { threshold: 0.08 });
-rvEls.forEach(el => obs.observe(el));
+rvEls.forEach(function(el) { obs.observe(el); });
 </script>
 </body>
 </html>
