@@ -26,10 +26,10 @@
 Full wallet systems with Paystack integration, webhook automation, transaction history, and instant delivery pipelines built for scale and security.
 
 ### 02 — Dashboards & Web Apps
-React-powered dashboards with clean UI, real-time data feeds, admin panels, and backend APIs that handle serious traffic without breaking.
+ WebApps with clean UI, real-time data feeds, admin panels, and backend APIs that handle serious traffic without breaking.
 
 ### 03 — Mobile Apps
-React Native mobile applications with Firebase or Appwrite backends, auth flows, push notifications, and production-ready UI that ships.
+React Native mobile applications with  backends, auth flows, push notifications, and production-ready UI that ships.
 
 ### 04 — Specialized Systems
 VTU platforms, voting systems with receipt verification, WhatsApp automation bots, and full e-commerce solutions built end-to-end.
@@ -44,14 +44,6 @@ VTU platforms, voting systems with receipt verification, WhatsApp automation bot
 | **Backend** | Laravel · PHP · Python |
 | **Database & BaaS** | MySQL · MongoDB · Firebase · Appwrite |
 | **DevOps & Tools** | Docker |
-
----
-
-## 📈 Recent Activity
-
-- 🟢 Launched **A-Pay wallet** with Paystack webhooks
-- ⚛️ Shipped **React Native app** with Firebase auth
-- 🔧 Deployed **VTU platform** with airtime/data API
 
 ---
 
