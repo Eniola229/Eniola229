@@ -3,7 +3,6 @@
 > **Full-Stack Developer** — PHP · Laravel · React · React Native · Tailwind
 
 [![Available for Work](https://img.shields.io/badge/Available%20for%20Work-22c55e?style=flat-square&logo=upwork&logoColor=white)](mailto:joshuaadeyemi445@gmail.com)
-[![Portfolio](https://img.shields.io/badge/africicl.com.ng-060b14?style=flat-square&logo=googlechrome&logoColor=white)](https://www.africicl.com.ng)
 [![GitHub](https://img.shields.io/badge/@Eniola229-060b14?style=flat-square&logo=github&logoColor=white)](https://github.com/Eniola229)
 [![Email](https://img.shields.io/badge/joshuaadeyemi445@gmail.com-060b14?style=flat-square&logo=gmail&logoColor=white)](mailto:joshuaadeyemi445@gmail.com)
 
