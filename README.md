@@ -93,6 +93,6 @@ Got a real problem and need someone who'll see it through to production? Send me
 
 <div align="center">
 
-**Joshua Adeyemi (Afric)** · Lagos, Nigeria 🇳🇬
+**Joshua Adeyemi (Afric)** 
 
 </div>
