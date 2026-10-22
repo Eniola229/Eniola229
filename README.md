@@ -4,7 +4,7 @@
 
 **I build the whole thing, from the database to the screen.**
 
-Full-stack developer in Lagos, Nigeria. Fintech, e-commerce, SaaS and media products that people actually use.
+Full-stack developer. Fintech, e-commerce, SaaS and media products that people actually use.
 
 [![Email](https://img.shields.io/badge/Email-060b14?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joshuaadeyemi445@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-060b14?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.africicl.com.ng)
