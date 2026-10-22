@@ -1,75 +1,98 @@
-# 👨‍💻 Joshua Adeyemi (Afric)
+<div align="center">
 
-> **Full-Stack Developer** — PHP · Laravel · React · React Native · Tailwind
+# Joshua Adeyemi
 
-[![Available for Work](https://img.shields.io/badge/Available%20for%20Work-22c55e?style=flat-square&logo=upwork&logoColor=white)](mailto:joshuaadeyemi445@gmail.com)
-[![GitHub](https://img.shields.io/badge/@Eniola229-060b14?style=flat-square&logo=github&logoColor=white)](https://github.com/Eniola229)
-[![Email](https://img.shields.io/badge/joshuaadeyemi445@gmail.com-060b14?style=flat-square&logo=gmail&logoColor=white)](mailto:joshuaadeyemi445@gmail.com)
+**I build the whole thing, from the database to the screen.**
 
----
+Full-stack developer in Lagos, Nigeria. Fintech, e-commerce, SaaS and media products that people actually use.
 
-## 🔥 Recent Projects
+[![Email](https://img.shields.io/badge/Email-060b14?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joshuaadeyemi445@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-060b14?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.africicl.com.ng)
+[![GitHub](https://img.shields.io/badge/GitHub-060b14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Eniola229)
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **[AfricTV](https://africtv.fun)** | African-focused streaming platform delivering video content with modern interface and robust backend infrastructure. | React, Laravel, MySQL |
-| **[OrdererWeb](https://ordererweb.shop)** | Full-featured e-commerce platform with order management, product listings, and seamless payment integration. | Laravel, Tailwind, Paystack, MySQL |
-| **[LSIV](https://lsiv.org)** | Professional organizational website with clean architecture, content management, and polished modern design standards. | React, PHP, MySQL |
-| **[TradeVista Hub](https://tradevistahub.shop)** | Fintech trading hub with real-time data, portfolio tracking, and secure transaction workflows for modern traders. | React, Laravel, Firebase |
-| **[A-Pay Wallet](https://africicl.com.ng/a-pay)** ⭐ | Production-grade fintech wallet — Paystack integration, webhook automation, peer-to-peer transfers, transaction receipts, and full admin dashboard. | Laravel, React, Paystack, Webhooks, MySQL |
+![Status](https://img.shields.io/badge/Open%20to%20freelance%20%26%20full--time-22c55e?style=flat-square)
+
+</div>
 
 ---
 
-## 🧰 What I Build
+## About
 
-### 01 — Fintech & Wallets
-Full wallet systems with Paystack integration, webhook automation, transaction history, and instant delivery pipelines built for scale and security.
+I'm a full-stack developer who likes owning a product end to end. I design the database, write the API, build the interface, and deploy it. Most of what I build handles real money or real traffic, so I care about things like webhook reliability, clean transaction records, and admin tools that don't fall over.
 
-### 02 — Dashboards & Web Apps
- WebApps with clean UI, real-time data feeds, admin panels, and backend APIs that handle serious traffic without breaking.
-
-### 03 — Mobile Apps
-React Native mobile applications with  backends, auth flows, push notifications, and production-ready UI that ships.
-
-### 04 — Specialized Systems
-VTU platforms, voting systems with receipt verification, WhatsApp automation bots, and full e-commerce solutions built end-to-end.
+I run multiple ventures under AfricGEM International Company Limited, and I take on client work when the problem is a good one.
 
 ---
 
-## ⚙️ Tech Stack
+## What I build
 
-| Category | Technologies |
-|----------|--------------|
-| **Frontend** | React · React Native · Tailwind CSS · Material UI |
-| **Backend** | Laravel · PHP · Python |
-| **Database & BaaS** | MySQL · MongoDB · Firebase · Appwrite |
-| **DevOps & Tools** | Docker |
+**Payments and wallets**
+Wallet systems, Paystack integrations, webhook automation, peer-to-peer transfers, receipts and transaction history.
 
----
+**Web apps and dashboards**
+Admin panels, reseller platforms, SaaS products and APIs built to handle serious traffic.
 
-## 📬 Let's Build Together
+**Mobile apps**
+React Native apps with auth, push notifications and a UI that's ready to ship.
 
-Open to freelance projects, collaborations, and full-time opportunities. If you have a real problem that needs a serious full-stack developer — I'm your guy.
-
-| Contact | |
-|---------|---|
-| **Email** | [joshuaadeyemi445@gmail.com](mailto:joshuaadeyemi445@gmail.com) |
-| **Portfolio** | [africicl.com.ng](https://www.africicl.com.ng) |
-| **GitHub** | [github.com/Eniola229](https://github.com/Eniola229) |
+**Specialised systems**
+VTU platforms, voting systems with receipt verification, WhatsApp automation bots and complete e-commerce platforms.
 
 ---
 
-### 📊 GitHub Snapshot
+## Tech stack
 
-| | |
-|---|---|
-| **Live Projects** | 10+ |
-| **Years Building** | 3+ |
-| **Primary Backend** | Laravel |
-| **Primary Frontend** | React |
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61dafb)
+![React Native](https://img.shields.io/badge/React%20Native-20232a?style=flat-square&logo=react&logoColor=61dafb)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-0f172a?style=flat-square&logo=tailwindcss&logoColor=38bdf8)
+![Material UI](https://img.shields.io/badge/Material%20UI-007fff?style=flat-square&logo=mui&logoColor=white)
+
+**Backend**
+
+![PHP](https://img.shields.io/badge/PHP-777bb4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-ff2d20?style=flat-square&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
+
+**Data and BaaS**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479a1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black)
+![Appwrite](https://img.shields.io/badge/Appwrite-f02e65?style=flat-square&logo=appwrite&logoColor=white)
+
+**DevOps**
+
+![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
-**Joshua Adeyemi (Afric)** · Full-Stack Developer · Lagos, Nigeria 🇳🇬
+## By the numbers
 
-© 2025 Joshua Adeyemi
+<div align="center">
+
+![Live projects](https://img.shields.io/badge/Live%20projects-10%2B-22c55e?style=for-the-badge)
+![Years building](https://img.shields.io/badge/Years%20building-3%2B-22c55e?style=for-the-badge)
+
+</div>
+
+---
+
+## Work with me
+
+Got a real problem and need someone who'll see it through to production? Send me a message.
+
+📧 [joshuaadeyemi445@gmail.com](mailto:joshuaadeyemi445@gmail.com)
+🌐 [africicl.com.ng](https://www.africicl.com.ng)
+
+---
+
+<div align="center">
+
+**Joshua Adeyemi (Afric)** · Lagos, Nigeria 🇳🇬
+
+</div>
